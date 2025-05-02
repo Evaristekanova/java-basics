@@ -19,6 +19,8 @@ public class Main {
 //        System.out.println(validateEmail());
         System.out.println("the factorial result is: " + factorial(5));
 
+        Laptop laptop = new Laptop();
+
     }
     //        FIZZBUZZ CHALLENGE
     public static void fizzBuzzChallenge(){
@@ -141,7 +143,6 @@ public class Main {
         Random random = new Random();
         char[] letters = word.toCharArray();
 //        scramble letters and join them back
-
         for (int i = letters.length - 1; i > 0; i--) {
             int index = random.nextInt(letters.length);
             System.out.println(index);
