@@ -20,6 +20,10 @@ public class Main {
         System.out.println("the factorial result is: " + factorial(5));
 
         Laptop laptop = new Laptop();
+        Calculator calculator = new Calculator();
+        double[] array = {1, 3, 4, 5, 5, 6};
+        System.out.println("Method overloading: " +calculator.add(array));
+        System.out.println("Method overloading: " +calculator.add(2,5));
 
     }
     //        FIZZBUZZ CHALLENGE
