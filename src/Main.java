@@ -25,6 +25,9 @@ public class Main {
         System.out.println("Method overloading: " +calculator.add(array));
         System.out.println("Method overloading: " +calculator.add(2,5));
 
+        CreditCardPayment creditCardPayment = new CreditCardPayment();
+        creditCardPayment.processPayment();
+
     }
     //        FIZZBUZZ CHALLENGE
     public static void fizzBuzzChallenge(){
