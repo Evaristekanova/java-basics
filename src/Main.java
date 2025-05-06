@@ -28,6 +28,12 @@ public class Main {
         CreditCardPayment creditCardPayment = new CreditCardPayment();
         creditCardPayment.processPayment();
 
+        Telephone telephone = new Telephone();
+        telephone.turnOff();
+        telephone.getStatus();
+        telephone.turnOn();
+        telephone.getStatus();
+
     }
     //        FIZZBUZZ CHALLENGE
     public static void fizzBuzzChallenge(){
