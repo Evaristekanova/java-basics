@@ -22,7 +22,7 @@ public class Calculator {
         return a - b;
     }
 
-    public void devision () {
+    public void division() {
         double result;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number: ");

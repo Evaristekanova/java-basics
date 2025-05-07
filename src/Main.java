@@ -17,23 +17,32 @@ public class Main {
 //        System.out.println(scramble("apple"));
 //        scrambleGameChallenge();
 //        System.out.println(validateEmail());
-        System.out.println("the factorial result is: " + factorial(5));
+//        System.out.println("the factorial result is: " + factorial(5));
+//
+//        Laptop laptop = new Laptop();
+//        Calculator calculator = new Calculator();
+//        calculator.division();
+//        double[] array = {1, 3, 4, 5, 5, 6};
+//        System.out.println("Method overloading: " +calculator.add(array));
+//        System.out.println("Method overloading: " +calculator.add(2,5));
+//
+//        CreditCardPayment creditCardPayment = new CreditCardPayment();
+//        creditCardPayment.processPayment();
+//
+//        Telephone telephone = new Telephone();
+//        telephone.turnOff();
+//        telephone.getStatus();
+//        telephone.turnOn();
+//        telephone.getStatus();
 
-        Laptop laptop = new Laptop();
-        Calculator calculator = new Calculator();
-        calculator.devision();
-        double[] array = {1, 3, 4, 5, 5, 6};
-        System.out.println("Method overloading: " +calculator.add(array));
-        System.out.println("Method overloading: " +calculator.add(2,5));
-
-        CreditCardPayment creditCardPayment = new CreditCardPayment();
-        creditCardPayment.processPayment();
-
-        Telephone telephone = new Telephone();
-        telephone.turnOff();
-        telephone.getStatus();
-        telephone.turnOn();
-        telephone.getStatus();
+        User user = new User();
+        try {
+            user.userRegistration("Evariste Dux", "password");
+            user.userRegistration("Eva", "");
+        }catch (Exception e){
+            System.out.println("Error from main class");
+            System.out.println(e.getMessage());
+        }
 
     }
     //        FIZZBUZZ CHALLENGE
