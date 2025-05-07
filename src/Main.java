@@ -21,6 +21,7 @@ public class Main {
 
         Laptop laptop = new Laptop();
         Calculator calculator = new Calculator();
+        calculator.devision();
         double[] array = {1, 3, 4, 5, 5, 6};
         System.out.println("Method overloading: " +calculator.add(array));
         System.out.println("Method overloading: " +calculator.add(2,5));
