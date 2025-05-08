@@ -35,14 +35,17 @@ public class Main {
 //        telephone.turnOn();
 //        telephone.getStatus();
 
-        User user = new User();
-        try {
-            user.userRegistration("Evariste Dux", "password");
-            user.userRegistration("Eva", "");
-        }catch (Exception e){
-            System.out.println("Error from main class");
-            System.out.println(e.getMessage());
-        }
+        FileSystem fileSystem = new FileSystem();
+        fileSystem.writeDateInFile();
+
+//        User user = new User();
+//        try {
+//            user.userRegistration("Evariste Dux", "password");
+//            user.userRegistration("Eva", "");
+//        }catch (Exception e){
+//            System.out.println("Error from main class");
+//            System.out.println(e.getMessage());
+//        }
 
     }
     //        FIZZBUZZ CHALLENGE
