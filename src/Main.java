@@ -35,8 +35,8 @@ public class Main {
 //        telephone.turnOn();
 //        telephone.getStatus();
 
-        FileSystem fileSystem = new FileSystem();
-        fileSystem.writeDateInFile();
+//        FileSystem fileSystem = new FileSystem();
+//        fileSystem.writeDateInFile();
 
 //        User user = new User();
 //        try {
@@ -46,6 +46,9 @@ public class Main {
 //            System.out.println("Error from main class");
 //            System.out.println(e.getMessage());
 //        }
+        Engine manualEngine = new Engine();
+        Car manualCar = new Car(manualEngine);
+        manualCar.drive();
 
     }
     //        FIZZBUZZ CHALLENGE
