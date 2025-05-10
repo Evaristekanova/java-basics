@@ -46,9 +46,13 @@ public class Main {
 //            System.out.println("Error from main class");
 //            System.out.println(e.getMessage());
 //        }
-        Engine manualEngine = new Engine();
-        Car manualCar = new Car(manualEngine);
-        manualCar.drive();
+//        Engine manualEngine = new Engine();
+//        Car manualCar = new Car(manualEngine);
+//        manualCar.drive();
+        Printer<String> stringPrinter = new Printer<>("Hello generics");
+        Printer<Double> doublePrinter = new Printer<>(123.423);
+        stringPrinter.displayType();
+        doublePrinter.displayType();
 
     }
     //        FIZZBUZZ CHALLENGE
