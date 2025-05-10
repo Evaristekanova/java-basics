@@ -49,8 +49,8 @@ public class Main {
 //        Engine manualEngine = new Engine();
 //        Car manualCar = new Car(manualEngine);
 //        manualCar.drive();
-        Printer<String> stringPrinter = new Printer<>("Hello generics");
-        Printer<Double> doublePrinter = new Printer<>(123.423);
+        TypeChecker<String> stringPrinter = new TypeChecker<>("Hello generics");
+        TypeChecker<Double> doublePrinter = new TypeChecker<>(123.423);
         stringPrinter.displayType();
         doublePrinter.displayType();
 
