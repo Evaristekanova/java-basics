@@ -54,6 +54,14 @@ public class Main {
         stringPrinter.displayType();
         doublePrinter.displayType();
 
+//        BOUNDED TYPE SAFETY
+
+        NumberChecker<Integer> intNumber = new NumberChecker<>(123);   //this works fine
+        intNumber.print();
+
+//        NumberChecker<String> stringValue = new NumberChecker<>("Hello bounded types");   //this won't work fine
+//        intNumber.print();
+
     }
     //        FIZZBUZZ CHALLENGE
     public static void fizzBuzzChallenge(){
