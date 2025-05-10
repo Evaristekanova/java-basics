@@ -62,6 +62,24 @@ public class Main {
 //        NumberChecker<String> stringValue = new NumberChecker<>("Hello bounded types");   //this won't work fine
 //        intNumber.print();
 
+//        GENERIC METHOD CALL
+        Integer[] arr ={1,3,5,5,7,4};
+
+        swapArrayElement(arr, 0, arr.length-1);
+
+
+
+    }
+
+    //        GENERIC METHOD
+
+    public static <T> void swapArrayElement(T[] array, int index1, int index2){
+        System.out.println("Array before swap: "+ Arrays.toString(array));
+        T temp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = temp;
+        System.out.println("Array after swap: "+ Arrays.toString(array));
+
     }
     //        FIZZBUZZ CHALLENGE
     public static void fizzBuzzChallenge(){
